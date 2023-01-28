@@ -1,0 +1,366 @@
+/*
+font-family: 'Kalam', cursive;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+/*
+font-family: 'Cairo', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap');
+/*
+font-family: 'Inter', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+.logo {
+    padding-top: 1.5rem;padding-bottom: 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: 3rem;
+    color: #2a2a2a;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    cursor: default ;
+    transform: scale(1.0);
+    transition: transform 2s;
+}
+
+
+#header-nav ul {
+    margin: 0 auto;
+    align-items: center;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+#header-nav a {
+    display: flex;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #2a2a2a;
+    transform: scale(1.0);
+    transition: transform .4s;
+}
+
+.bar {
+    margin: auto;
+    margin-top: 1rem;
+    background-color: #2a2a2aaa;
+    height: 3px;
+    border-radius: 8px;
+    width: 55%;
+    transition: all 1s;
+}
+
+#header-nav a:hover {
+    color: salmon;
+    transform: scale(1.2);
+    transition: transform .2s;
+}
+
+.Nav-shrink {
+    width: 20%;
+    transition: all 0.5s;
+}
+
+.section1-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../source/home-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 800px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 29px -6px rgba(128,120,128,1);
+    -moz-box-shadow: 0px 0px 29px -6px rgba(128,120,128,1);
+    box-shadow: 0px 0px 29px -6px rgba(128,120,128,1);
+}
+
+.section1-text {
+    width: 100%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    background: rgba(82, 81, 77, 0.7);
+    padding: 1rem 0 1rem 0;
+    cursor: default;
+    
+}
+
+.section1-text > *:hover {
+    transform: scale(1.2);
+    transition: transform .8s;
+}
+
+
+.section1-text h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: whitesmoke;
+    transform: scale(1.0);
+    transition: transform .8s;
+}
+
+.section1-text h3 {
+    color: whitesmoke;
+    padding-top: 1rem;
+    font-size: 1.4rem;
+    transform: scale(1.0);
+    transition: transform .8s;
+}
+    
+.section1 {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-background {
+    gap: 2rem;
+    width: 90%;
+    margin: 2.5rem auto 2.5rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 900px;
+}
+
+.s2Right {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr ;
+    gap: 0.5rem;
+}
+
+.s2Left {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    padding: 1rem 0 1rem 0;
+    color: rgb(17, 16, 52);
+    transform: scale(1.0);
+    transition: transform .5s;
+    cursor: default;
+}
+
+.s2Left:hover {
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+
+.s2Left h2 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.s2Left h3 {
+    padding-top: 1.5rem;
+    line-height: 1.5;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.s2Right > *:hover {
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+
+.s2Right > * {
+    transform: scale(1.0);
+    transition: transform .8s;
+}
+
+.sec2-1 {
+    background-image: url(../source/section2/DALL·E\ 2023-01-28\ 16.01.36\ -\ A\ 3D\ render\ of\ an\ astronaut\ walking\ in\ a\ green\ desert.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.sec2-2 {
+    background-image: url(../source/section2/DALL·E\ 2023-01-28\ 16.02.11\ -\ A\ photo\ of\ a\ teddy\ bear\ on\ a\ skateboard\ in\ Times\ Square.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.sec2-3 {
+    background-image: url(../source/section2/DALL·E\ 2023-01-28\ 16.02.41\ -\ A\ bowl\ of\ soup\ that\ is\ also\ a\ portal\ to\ another\ dimension\,\ digital\ art.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.sec2-4 {
+    background-image: url(../source/section2/DALL·E\ 2023-01-28\ 16.02.55\ -\ a\ cat\ submarine\ chimera\,\ digital\ art.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.sec2-5 {
+    background-image: url(../source/section2/DALL·E\ 2023-01-28\ 16.03.04\ -\ flying\ turtile\ behind\ him\ other\ birds\ are\ flying\ together.\ there\ are\ some\ clouds\ on\ the\ background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.sec2-6 {
+    background-image: url(../source/section2/DALL·E\ 2023-01-28\ 16.03.13\ -\ a\ dog\ with\ clown\ suit\ on\ a\ bike\ in\ the\ forest.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.sec2-7 {
+    background-image: url(../source/section2/DALL·E\ 2023-01-28\ 16.03.31\ -\ a\ deer\ chihuahua\ rocket\,\ digital\ art.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.sec2-8 {
+    background-image: url(../source/section2/DALL·E\ 2023-01-28\ 16.04.03\ -\ A\ 3D\ render\ of\ a\ rainbow\ colored\ hot\ air\ balloon\ flying\ above\ a\ reflective\ lake.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.sec2-9 {
+    background-image: url(../source/section2/DALL·E\ 2023-01-28\ 16.04.33\ -\ A\ futuristic\ cyborg\ poster\ hanging\ in\ a\ neon\ lit\ subway\ station.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+footer {
+    background: #242424;
+    -webkit-box-shadow: 0px 0px 29px -6px rgba(42,42,42,1);
+    -moz-box-shadow: 0px 0px 29px -6px rgba(42,42,42,1);
+    box-shadow: 0px 0px 29px -6px rgba(42,42,42,1);
+    
+}
+
+.footer-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    grid-template-columns: 1.5fr 3fr 1fr;
+    height: 300px;
+    margin-bottom: 1rem;
+    gap: 1.5rem;
+}
+
+#footerlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: rgba(255, 254, 254, .9) 3px solid;
+    height: 150px;
+}
+
+#logo-footer {
+    padding-right: min(4rem);
+    font-family: 'Kalam', cursive;
+    font-size: 3rem;
+    color: aliceblue;
+    font-weight: 600;
+    cursor: default;
+}
+
+.nav-footer {
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 20%;
+    transform: scale(1.0);
+    transition: transform .6s;
+}
+
+.footerNav {
+    font-family: 'Inter', sans-serif;
+    color: rgb(240, 248, 255);
+    text-decoration: none;
+}
+
+.nav-footer a:hover{
+    color: salmon;
+}
+
+#footerMiddleText2 p {
+    padding-top: 1.5rem;
+    color: rgb(240, 248, 255);
+    margin-left: 20%;
+    cursor: default;
+}
+
+#footer-icons {
+    display: flex;
+    gap: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.icon {
+    cursor: pointer;
+    transform: scale(1.0);
+    transition: transform .6s;
+}
+
+.icon:hover {
+    transform: scale(1.4);
+    transition: transform .2s;
+}
+
+#footer-icons > * {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#footer-third-part p {
+    font-family: 'Inter', sans-serif;
+    color: rgb(240, 248, 255);
+    padding-top: 0.225rem;
+    cursor: pointer;
+    transform: scale(1.0);
+    transition: transform .6s;
+}
+
+#footer-mail {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    transform: scale(1.0);
+    transition: transform .6s;
+}
+
+#footer-mail-container {
+    display: flex;
+    gap: 1rem;
+    transform: scale(1.0);
+    transition: transform .6s;
+}
+
+#footer-mail-container:hover #footer-mail{
+    transform: scale(1.3);
+    transition: transform .2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
